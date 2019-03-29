@@ -1,0 +1,15 @@
+.column {
+  width: 33%;
+  height: 100%;
+}
+
+.column img {
+  width: 90%;
+  opacity: 1;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+.column img:hover {
+  opacity: 0.5;
+}

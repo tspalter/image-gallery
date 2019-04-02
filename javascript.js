@@ -4,7 +4,7 @@ var previous = document.getElementById("prev");
 var close = document.getElementById("close");
 var int = 0;
 
-for (let i = 0; i < images.length - 1; i++) {
+for (let i = 0; i < images.length; i++) {
   images[i].addEventListener("click", function(bool) {
     document.getElementById('dimmer').style.display = (bool?'block':'none');
     document.getElementById('next').style.display = (bool?'block':'none');

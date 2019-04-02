@@ -8,30 +8,29 @@
 </head>
 
 <body>
+  <div id="dimmer"></div>
+  <button type="button" id="prev" name="prev-button">Previous</button>
     <div class="column">
-      <img class="pic" src="egg.jpg" alt="">
-      <img class="pic" src="milkshake.jpg" alt="">
-      <img class="pic" src="orange.jpg" alt="">
-      <img class="pic" src="steak.jpg" alt="">
+      <img class="pic" id="0" src="egg.jpg" alt="" data-type="egg">
+      <img class="pic" id="1" src="milkshake.jpg" alt="" data-type="milkshake">
+      <img class="pic" id="2" src="orange.jpg" alt="" data-type="orange">
+      <img class="pic" id="3" src="steak.jpg" alt="" data-type="steak">
     </div>
     <div class="column">
-      <img class="pic" src="sushi.jpg" alt="">
-      <img class="pic" src="watermelon.jpg" alt="">
-      <img class="pic" src="grapes.jpg" alt="">
-      <img class="pic" src="broccolini.jpg" width="24%" alt="">
+      <img class="pic" id="4" src="sushi.jpg" alt="" data-type="sushi">
+      <img class="pic" id="5" src="watermelon.jpg" alt="" data-type="watermelon">
+      <img class="pic" id="6" src="grapes.jpg" alt="" data-type="grapes">
+      <img class="pic" id="7" src="broccolini.jpg" width="24%" alt="" data-type="broccolini">
     </div>
     <div class="column">
-      <img class="pic" src="salmon.jpg" alt="">
-      <img class="pic" src="stir fry.jpg" alt="">
-      <img class="pic" src="cheesecake.jpg" alt="">
-      <img class="pic" src="mashed potatoes.jpg" alt="">
+      <img class="pic" id="8" src="salmon.jpg" alt="" data-type="salmon">
+      <img class="pic" id="9" src="stir fry.jpg" alt="" data-type="stir fry">
+      <img class="pic" id="10" src="cheesecake.jpg" alt="" data-type="cheesecake">
+      <img class="pic" id="11" src="mashed potatoes.jpg" alt="" data-type="mashed potatoes">
     </div>
-    <script>
-    document.getElementsByClassName("pic").addEventListener("onclick", myFunction());
-    function myFunction() {
-      alert("Hello\nHow are you?");
-    }
-    </script>
+    <button type="button" id="next" name="next-button">Next</button>
+    <button type="button" id="close" name="close-button">Close</button>
+    <script src="javascript.js"></script>
 </body>
 
 </html>
